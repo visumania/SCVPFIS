@@ -8,17 +8,17 @@ public class SCVPFIS {
     public static void main(String[] args) {
         Calculadora cal = new Calculadora();
         int opc;
-        int num1, num2;
+        float num1, num2;
         Scanner teclado = new Scanner(System.in);
 
         do {
             System.out.println("\n*** MENÚ CALCULADORA ***\n");
 
             System.out.print("Introduzca operando 1: ");
-            num1 = teclado.nextInt();
+            num1 = teclado.nextFloat();
 
             System.out.print("Introduzca operando 2: ");
-            num2 = teclado.nextInt();
+            num2 = teclado.nextFloat();
 
             System.out.println("\n1.- Sumar");
             System.out.println("2.- Restar");
